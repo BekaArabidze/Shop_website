@@ -1,0 +1,36 @@
+/// ========================= HEADING
+
+$heading-regular: "heading-regular", "georgian-heading-regular";
+$heading-medium: "heading-medium-smallest", "georgian-heading-medium";
+$heading-bold: "heading-big-bold", "georgian-heading-bold";
+$heading-black: "heading-big-black", "georgian-heading-black";
+
+/// ========================= PARAGRAPH
+$paragraph-light: "paragraph-light", "georgian-heading-light";
+$paragraph-regular: "paragraph-regular", "georgian-heading-regular";
+$paragraph-bold: "paragraph-bold", "georgian-heading-bold";
+// $paragraph-medium:"","";
+// $paragraph-black:"","";
+
+.heading-regular-font {
+  font-family: $heading-regular;
+}
+.heading-medium-font {
+  font-family: $heading-medium;
+}
+.heading-bold-font {
+  font-family: $heading-bold;
+}
+.heading-black-font {
+  font-family: $heading-black;
+}
+
+.paragraph-light-font {
+  font-family: $paragraph-light;
+}
+.paragraph-regular-font {
+  font-family: $paragraph-regular;
+}
+.paragraph-bold-font {
+  font-family: $paragraph-bold;
+}

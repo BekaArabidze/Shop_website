@@ -1,0 +1,29 @@
+@mixin after {
+  content: "";
+  position: absolute;
+}
+
+@mixin transform-center {
+  transform: translate(-50%, -50%);
+}
+
+@mixin hundred-w-h {
+  width: 100%;
+  height: 100%;
+}
+
+@mixin round-corners {
+  border-radius: 10px;
+}
+@mixin flex-template-for-footer {
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-evenly;
+  align-items: center;
+}
+
+@mixin center-flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

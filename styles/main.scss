@@ -1,0 +1,33 @@
+/// === === ===  ABSTRACTS === === === ===
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+/// === === ===  FONTS === === === ===
+@import "fonts/font-face";
+@import "fonts/font-sizes";
+
+/// === === ===  BASE=== === === ===
+@import "base/base";
+
+/// === === ===  FONTS === === === ===
+@import "fonts/font-face";
+@import "fonts/font-sizes";
+@import "fonts/font-styles";
+
+
+
+/// === === === PAGES === === === ===
+
+@import "pages/home";
+
+/// === === === QUERYS=== === === ===
+
+@import "media-querys/media-querys";
+@import "media-querys/home-query";
+
+/// === === ===  COMPONENTS === === === ===
+@import "components/nav-bar";
+@import "components/buttons";
+@import "components/footer";
+
+@import "components/animations";
